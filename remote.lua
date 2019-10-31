@@ -13,7 +13,7 @@ end
 --@help Launch NextPVR application
 actions.launch = function()
 	if OS_WINDOWS then
-		os.start("%programfiles(x86)%\\NPVR\NextPVR.exe");
+		os.start("%programfiles(x86)%\\NPVR\\NextPVR.exe");
 	end
 end
 
