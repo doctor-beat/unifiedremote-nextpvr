@@ -3,8 +3,8 @@ local keyboard = libs.keyboard;
 events.detect = function ()
 	if OS_WINDOWS then
 	    return 
-		    libs.fs.exists("C:\\Program Files (x86)\\NextPVR") or
-		    libs.fs.exists("C:\\Program Files\\NextPVR");
+		    libs.fs.exists("C:\\Program Files (x86)\\NPVR") or
+		    libs.fs.exists("C:\\Program Files\\NPVR");
     else
         return true;
     end
@@ -13,7 +13,7 @@ end
 --@help Launch NextPVR application
 actions.launch = function()
 	if OS_WINDOWS then
-		os.start("%programfiles(x86)%\\NextPVR\NextPVR.exe");
+		os.start("%programfiles(x86)%\\NPVR\NextPVR.exe");
 	end
 end
 
