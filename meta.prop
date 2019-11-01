@@ -1,4 +1,5 @@
 meta.name: NextPVR
 meta.author: Dr Bibber
-meta.description: NextPVR control
+meta.description: NextPVR media remote control
 meta.tags.category: media
+meta.version: 191101

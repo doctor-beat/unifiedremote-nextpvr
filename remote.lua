@@ -87,12 +87,12 @@ end
 
 --@help Channel+
 actions.channel_up = function ()
-	keyboard.stroke("+");
+	keyboard.stroke("numadd");
 end
 
 --@help Channel-
 actions.channel_down = function ()
-	keyboard.stroke("-");
+	keyboard.stroke("numsubtract");
 end
 --@help Channel-
 
@@ -108,13 +108,29 @@ actions.play = function()
 end
 
 --@help Pause playback
-actions.pause = function()
+actions.playpause = function()
 	keyboard.stroke("control", "q");
+end
+
+actions.rewind = function()
+	keyboard.stroke("control", "r");
+end
+
+actions.forward = function()
+	keyboard.stroke("control", "f");
+end
+
+actions.replay = function()
+	keyboard.stroke("control", "left");
+end
+
+actions.skip = function()
+	keyboard.stroke("control", "right");
 end
 
 --@help Stop playback
 actions.stop = function()
-	keyboard.stroke("control", "ss");
+	keyboard.stroke("control", "s");
 end
 
 --@help Back
@@ -124,7 +140,7 @@ end
 
 --@help Epg
 actions.epg = function()
-	keyboard.stroke("f1");
+	keyboard.stroke("F1");
 end
 
 

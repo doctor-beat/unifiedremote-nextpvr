@@ -1,52 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<layout onLaunch="launch" onVolumeUp="volume_up" onVolumeDown="volume_down" onResume="resume" onPause="pause" color="#1D8D01">
-  <tabs>
-    <tab text="Live TV">
+<layout onLaunch="launch" onVolumeUp="volume_up" onVolumeDown="volume_down" onResume="resume" onPause="pause" color="#b9bfb7">
+<!--  <tabs>
+    <tab text="Live TV"> -->
         <row>
-		    <button icon="vdown" onTap="volume_down" />
-		    <button icon="vmute" onTap="volume_mute" />
-		    <button icon="vup" onTap="volume_up" />
-        </row>
-        <row>
-		    <button icon="pause" onTap="pause" />
-		    <button icon="up" onTap="up" />
-		    <button icon="play" onTap="play" />
-        </row>
+            <button icon="list" onTap="epg" />
+  	        <button icon="up" onTap="up" />
+            <button text="Info" onTap="info" />
+        </row>    
         <row>
 		    <button icon="left" onTap="left" />
 		    <button icon="select" onTap="select" />
 		    <button icon="right" onTap="right" />
         </row>
         <row>
-		    <button icon="stop" onTap="stop" />
-		    <button icon="down" onTap="down" />
 		    <button icon="back" onTap="back" />
+		    <button icon="down" onTap="down" />
+            <button icon="fullscreen" onTap="fullscreen" />
         </row>
-    <!--    <row>
-		    <button icon="previous" onTap="previous" />
-		    <button icon="windows" onTap="windows" />
-		    <button icon="next" onTap="next" />
-        </row>
-    -->	<row>
-		    <button text="Ch-" onTap="channel_down" />
-		    <button icon="record" ontap="record" />
+        <row>
+		    <button icon="vup" onTap="volume_up" />
+		    <space />
 		    <button text="Ch+" ontap="channel_up" />
-	    </row>
-        <row>
-          <button icon="home" onTap="home" />
-          <button text="Info" onTap="info" />
-          <button icon="fullscreen" onTap="fullscreen" />
         </row>
         <row>
-          <space />
-          <button icon="list" onTap="epg" />
-          <space />
-        </row>    
-    <!--    <row>
-          <button icon="rwd" onTap="rewind" />
-          <button icon="back" onTap="back" />
-          <button icon="ff" onTap="forward" />
-        </row> -->
-    </tab>
-  </tabs>
+		    <button icon="vdown" onTap="volume_down" />
+		    <button icon="vmute" onTap="volume_mute" />
+		    <button text="Ch-" onTap="channel_down" />
+        </row>
+        <row>
+		    <button icon="play" onTap="play" weight="2" color="#1d8d01"/>
+		    <button icon="record" ontap="record" color="#d80d1a"/>
+        </row>
+        <row>
+		    <button icon="rwd" onTap="rewind" />
+		    <button icon="playpause" onTap="playpause" />
+		    <button icon="ff" onTap="forward" />
+        </row>
+        <row>
+		    <button icon="previous" onTap="replay" />
+		    <button icon="stop" onTap="stop" />
+		    <button icon="next" onTap="skip" />
+        </row>
+        <row>
+            <button icon="home" onTap="home" />
+		    <space />
+            <button icon="power" onTap="launch" />
+        </row>
+<!--    </tab>
+  </tabs> -->
 </layout>
