@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<layout onLaunch="launch" onVolumeUp="volume_up" onVolumeDown="volume_down" onResume="resume" onPause="pause" color="#b9bfb7">
+<layout onLaunch="launch" onVolumeUp="volume_up" onVolumeDown="volume_down" onResume="playpause" onPause="playpause" color="#b9bfb7" orientation="portrait">
 <!--  <tabs>
     <tab text="Live TV"> -->
         <row>
@@ -45,6 +45,11 @@
             <button icon="home" onTap="home" />
 		    <space />
             <button icon="power" onTap="launch" />
+        </row>
+        <row>
+		    <space />
+            <button icon="docclose" onTap="exit" color="#d80d1a"/>
+		    <space />
         </row>
 <!--    </tab>
   </tabs> -->

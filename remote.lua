@@ -143,6 +143,10 @@ actions.epg = function()
 	keyboard.stroke("F1");
 end
 
+actions.exit = function ()
+		keyboard.stroke("alt", "F4");
+end
+
 
 
 
