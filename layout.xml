@@ -43,7 +43,8 @@
         </row>
         <row>
             <button icon="home" onTap="home" />
-		    <space />
+<!-- 		    <space /> -->
+            <button icon="playpause" onTap="space" />
             <button icon="power" onTap="launch" />
         </row>
         <row>

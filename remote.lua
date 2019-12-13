@@ -147,6 +147,9 @@ actions.exit = function ()
 		keyboard.stroke("alt", "F4");
 end
 
+actions.space  = function ()
+	keyboard.stroke("space");
+end
 
 
 
