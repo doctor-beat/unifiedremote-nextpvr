@@ -14,7 +14,7 @@ end
 actions.switch = function()
 	if OS_WINDOWS then
 		local hwnd = win.window("NextPVR.exe");
-		if (hwnd != 0) then win.switchtowait("NextPVR.exe"); end
+		if (hwnd ~= 0) then win.switchtowait("NextPVR.exe"); end
 	end
 end
 
