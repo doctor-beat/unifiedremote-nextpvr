@@ -33,7 +33,7 @@
         </row>
         <row>
 		    <button icon="rwd" onTap="rewind" />
-		    <button icon="playpause" onTap="playpause" />
+		    <button icon="playpause" onTap="space" />
 		    <button icon="ff" onTap="forward" />
         </row>
         <row>
@@ -43,13 +43,12 @@
         </row>
         <row>
             <button icon="home" onTap="home" />
-<!-- 		    <space /> -->
-            <button icon="playpause" onTap="space" />
+ 		    <space />
             <button icon="power" onTap="launch" />
         </row>
         <row>
 		    <space />
-            <button icon="docclose" onTap="exit" color="#d80d1a"/>
+            <button icon="docclose" onTap="exit" color="#FF9731"/>
 		    <space />
         </row>
 <!--    </tab>
