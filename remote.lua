@@ -1,4 +1,5 @@
 local keyboard = libs.keyboard;
+local win = libs.win;
 
 events.detect = function ()
 	if OS_WINDOWS then
